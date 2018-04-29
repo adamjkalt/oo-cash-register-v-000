@@ -36,7 +36,6 @@ def items
 
 def void_last_transaction
   @total -= @last_item[:price]
-  
 end
 
 end
