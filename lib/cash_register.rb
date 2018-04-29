@@ -30,7 +30,6 @@ end
 def items
   item_names = []
   @cart.each do | item_info |
-    binding.pry
         item_names << item_info[:title]
     end
     item_names
