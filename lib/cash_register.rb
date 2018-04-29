@@ -19,6 +19,7 @@ def add_item(title, price, quantity = 1)
       @item_list << title
     end
     @total += price * quantity
+    @last_item = item_info
   end
 
 def apply_discount
