@@ -28,11 +28,7 @@ def apply_discount
 end
 
 def items
-  item_names = []
-  @cart.each do | item_info |
-        item_names << item_info[:title]
-    end
-    item_names
+  @cart
   end
 
 def void_last_transaction
