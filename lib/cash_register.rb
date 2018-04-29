@@ -30,7 +30,7 @@ def apply_discount
 end
 
 def items
-  @cart
+  @item_list
   end
 
 def void_last_transaction
