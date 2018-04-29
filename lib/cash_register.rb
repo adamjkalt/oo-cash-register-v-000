@@ -28,10 +28,9 @@ end
 def items
   item_names = []
   @cart.each do | item_info |
-    binding.pry
-    #for qty in 1..item_info[:quantity]
+    for qty in 1..item_info[:quantity]
         item_names << item_info[:title]
-      #end
+      end
     end
     item_names
   end
