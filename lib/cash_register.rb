@@ -35,8 +35,7 @@ def items
   end
 
 def void_last_transaction
-  binding.pry
-  @last_item
+  @total - @last_item[:price]
 end
 
 end
