@@ -16,7 +16,7 @@ def add_item(title, price, quantity = 1)
     item_info[:price] = price
     item_info[:quantity] = quantity
     quantity.times do
-      @cart << title
+      @item_list << title
     end
     @total += price * quantity
   end
